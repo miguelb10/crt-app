@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174246214-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-174246214-2');
+  </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Inicio | Commit Rollback</title>
@@ -332,8 +339,12 @@
             </div>
             <div class="form-group row">
               <div class="col-sm-6">
-                <label class="text_form_contactanos" for="empresa">Empresa</label>
-                <input type="text" class="form-control" id="empresa" name="empresa" placeholder="Ingrese el nombre de su empresa" required>
+                <label class="text_form_contactanos" for="ruc">RUC</label>
+                <input onKeyPress="return soloNumeros(event)" type="text" minlength="11" maxlength="11" class="form-control" id="ruc" name="ruc" placeholder="Ingrese el RUC de su empresa" required>
+              </div>
+              <div class="col-sm-6">
+                <label class="text_form_contactanos" for="empresa">Razón social</label>
+                <input type="text" class="form-control" id="empresa" name="empresa" placeholder="Ingrese la razón social de su empresa" required>
               </div>
             </div>
             <div class="form-group row">

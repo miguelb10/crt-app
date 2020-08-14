@@ -4,6 +4,7 @@ if(isset($_POST['nombre']) && $_POST['nombre'] &&
 isset($_POST['asunto']) && $_POST['asunto'] &&
 isset($_POST['correo']) && $_POST['correo'] &&
 isset($_POST['celular']) && $_POST['celular'] &&
+isset($_POST['ruc']) && $_POST['ruc'] &&
 isset($_POST['empresa']) && $_POST['empresa'] &&
 isset($_POST['mensaje']) && $_POST['mensaje'] ){
     $destino = "info@crt.com.pe";
@@ -15,6 +16,7 @@ isset($_POST['mensaje']) && $_POST['mensaje'] ){
     $asunto = $_POST['asunto'];
     $correoCliente = $_POST['correo'];
     $celular = $_POST['celular'];
+    $ruc = $_POST['ruc'];
     $empresa = $_POST['empresa'];
     $mensaje = $_POST['mensaje'];
     $mensajehtml = "
@@ -29,7 +31,9 @@ isset($_POST['mensaje']) && $_POST['mensaje'] ){
     <p>$correoCliente</p>
     <h4>Celular:</h4>
     <p>$celular</p>
-    <h4>Empresa:</h4>
+    <h4>RUC:</h4>
+    <p>$ruc</p>
+    <h4>Razón social:</h4>
     <p>$empresa</p>
     <h4>Mensaje:</h4>
     <p>$mensaje</p>
