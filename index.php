@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175296887-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
     gtag('config', 'UA-175296887-1');
   </script>
@@ -63,21 +67,25 @@
           <div class="row erp_row_sol">
             <div class="col-lg-4 col-md-6 erp_div_sol">
               <div class="event_thumb single_event_est">
-                <img src="img/iconos/Software_Box_Premium.png" alt="" />
+                <a href="#" data-toggle="modal" data-target="#ModalFCBPremium">
+                  <img src="img/iconos/Software_Box_Premium.png" alt="" />
+                </a>
               </div>
               <h2 class="erp_descripcion_text"><strong>FCB Premium:</strong> Basado en procesos complejos de información, contempla toda la modularidad de la suite FCB. </h2>
-
             </div>
             <div class="col-lg-4 col-md-6 erp_div_sol">
               <div class="event_thumb single_event_est">
-                <img src="img/iconos/Software_Box_Standard.png" alt="" />
+                <a href="#" data-toggle="modal" data-target="#ModalFCBStandard">
+                  <img src="img/iconos/Software_Box_Standard.png" alt="" />
+                </a>
               </div>
               <h2 class="erp_descripcion_text"><strong>FCB Estándar:</strong> Comprende flujos de datos generales basados en procesos comerciales.</h2>
-
             </div>
             <div class="col-lg-4 col-md-6 erp_div_sol">
               <div class="event_thumb single_event_est">
-                <img src="img/iconos/Software_Box_Site.png" alt="" />
+                <a href="#" data-toggle="modal" data-target="#ModalFCBSite">
+                  <img src="img/iconos/Software_Box_Site.png" alt="" />
+                </a>
               </div>
               <h2 class="erp_descripcion_text"><strong>FCB Site:</strong> Conectividad 100% desde cualquier parte del mundo sin costos adicionales teniendo control total dentro y fuera de la empresa.</h2>
             </div>
@@ -141,7 +149,6 @@
           <h5 class="proj_title_slog">Cuidar de nuestros clientes es nuestra principal filosofía, lo que nos ha permitido destacar y posicionarnos frente a otras empresas.</h5>
         </div>
       </div>
-
       <div class="container_proje carousel_hidden">
         <div class="container-fluid">
           <div id="carouselExample1" class="carouselPrograms carousel slide" data-ride="carousel" data-interval="false">
@@ -150,7 +157,15 @@
                 <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 6" class="thumb">
-                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen1.png" alt="slide 5">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/001.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/002.jpg" alt="slide 5">
                     </a>
                   </div>
                 </div>
@@ -159,7 +174,15 @@
                 <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 6" class="thumb">
-                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen2.png" alt="slide 5">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/003.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/004.jpg" alt="slide 5">
                     </a>
                   </div>
                 </div>
@@ -168,7 +191,15 @@
                 <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 6" class="thumb">
-                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen3.png" alt="slide 5">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/005.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/006.jpg" alt="slide 5">
                     </a>
                   </div>
                 </div>
@@ -177,7 +208,15 @@
                 <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 6" class="thumb">
-                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen4.jpg" alt="slide 5">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/007.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/008.jpg" alt="slide 5">
                     </a>
                   </div>
                 </div>
@@ -186,7 +225,15 @@
                 <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 6" class="thumb">
-                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen5.jpg" alt="slide 5">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/009.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/010.jpg" alt="slide 5">
                     </a>
                   </div>
                 </div>
@@ -195,25 +242,15 @@
                 <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 6" class="thumb">
-                      <img class="img-fluid mx-auto d-block img-carousel-size-1" src="img/clientes/Imagen9.jpg" alt="slide 5">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/011.jpg" alt="slide 5">
                     </a>
                   </div>
                 </div>
-              </div>
-              <div class="carousel-item col-md-4">
+                <br></br>
                 <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 6" class="thumb">
-                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen7.jpg" alt="slide 5">
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item col-md-4 ">
-                <div class="panel panel-default">
-                  <div class="panel-thumbnail">
-                    <a href="#" title="image 6" class="thumb">
-                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen8.jpg" alt="slide 5">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/012.jpg" alt="slide 5">
                     </a>
                   </div>
                 </div>
@@ -222,7 +259,15 @@
                 <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 6" class="thumb">
-                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen6.jpg" alt="slide 5">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/013.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/014.jpg" alt="slide 5">
                     </a>
                   </div>
                 </div>
@@ -231,7 +276,15 @@
                 <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 6" class="thumb">
-                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen10.png" alt="slide 5">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/015.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/016.jpg" alt="slide 5">
                     </a>
                   </div>
                 </div>
@@ -240,7 +293,15 @@
                 <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 6" class="thumb">
-                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen11.png" alt="slide 5">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/017.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/018.jpg" alt="slide 5">
                     </a>
                   </div>
                 </div>
@@ -249,7 +310,202 @@
                 <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 6" class="thumb">
-                      <img class="img-fluid mx-auto d-block img-carousel-size-1" src="img/clientes/Imagen12.png" alt="slide 5">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/019.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/020.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-4 ">
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/021.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/022.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-4 ">
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/023.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/024.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-4 ">
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/025.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/026.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-4 ">
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/027.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/028.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-4 ">
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/029.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/030.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-4 ">
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/031.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/032.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-4 ">
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/033.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/034.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-4 ">
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/035.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/036.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-4 ">
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/037.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/038.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-4 ">
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/039.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/040.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-4 ">
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/041.jpg" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+                <br></br>
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/042.jpg" alt="slide 5">
                     </a>
                   </div>
                 </div>
@@ -266,47 +522,23 @@
           </div>
         </div>
       </div>
-      <div class="row row_clientes_1 clientes_hidden">
-        <div class="col-lg-2">
-          <img class="img-fluid mx-auto d-block img-carousel-size-1" src="img/clientes/Imagen12.png" alt="slide 5">
-        </div>
-        <div class="col-lg-2">
-          <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen2.png" alt="slide 2">
-        </div>
-        <div class="col-lg-2">
-          <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen3.png" alt="slide 3">
-        </div>
-        <div class="col-lg-2">
-          <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen4.jpg" alt="slide 4">
-        </div>
-        <div class="col-lg-2">
-          <img class="img-fluid mx-auto d-block img-carousel-size-1" src="img/clientes/Imagen9.jpg" alt="slide 5">
-        </div>
-        <div class="col-lg-2">
-          <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen5.jpg" alt="slide 5">
+      <div class="container_proje">
+        <div class="row row_clientes_1 clientes_hidden">
+          <div id="carouselExample11" class="carousel slide z-depth-1-half" data-ride="carousel" data-interval="1000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg" alt="Third slide">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row clientes_hidden">
-        <div class="col-lg-2">
-          <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen7.jpg" alt="slide 5">
-        </div>
-        <div class="col-lg-2">
-          <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen8.jpg" alt="slide 5">
-        </div>
-        <div class="col-lg-2">
-          <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen6.jpg" alt="slide 5">
-        </div>
-        <div class="col-lg-2">
-          <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen10.png" alt="slide 5">
-        </div>
-        <div class="col-lg-2">
-          <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen11.png" alt="slide 5">
-        </div>
-        <div class="col-lg-2">
-          <img class="img-fluid mx-auto d-block img-carousel-size" src="img/clientes/Imagen1.png" alt="slide 1">
-        </div>
-      </div>
-    </div>
   </section>
   <section class="contactanos_section" id="contactanos">
     <div class="container_contactanos">
@@ -366,7 +598,6 @@
     </div>
     <div class="container_googlemaps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.143199511461!2d-76.98589837080667!3d-12.141355199462772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b86d106117b1%3A0xe5db0fd8823ef82a!2sCalle%20Bayovar%20Nte%20191%2C%20Santiago%20de%20Surco%2015039!5e0!3m2!1ses-419!2spe!4v1591428966544!5m2!1ses-419!2spe" class="googleMaps" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
-
   </section>
   <?php require 'partials/footer.php'; ?>
   <div class="modal fade" id="ModalConf" tabindex="-1" role="dialog" aria-labelledby="ModalConf" aria-hidden="true">
@@ -381,7 +612,6 @@
       </div>
     </div>
   </div>
-
   <div class="modal fade" id="ModalErr" tabindex="-1" role="dialog" aria-labelledby="ModalErr" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
@@ -390,6 +620,42 @@
         </div>
         <div class="modal-footer" style="justify-content: center;">
           <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="ModalFCBPremium" tabindex="-1" role="dialog" aria-labelledby="ModalFCBPremium" aria-hidden="true">
+    <div class="modal-fcb-software modal-dialog modal-fcb-software" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="img/iconos/Modal_FCB PREMIUM.png" alt="" />
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="ModalFCBSite" tabindex="-1" role="dialog" aria-labelledby="ModalFCBSite" aria-hidden="true">
+    <div class="modal-fcb-software modal-dialog modal-fcb-software" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="img/iconos/Modal_FCB SITE.png" alt="" />
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="ModalFCBStandard" tabindex="-1" role="dialog" aria-labelledby="ModalFCBStandard" aria-hidden="true">
+    <div class="modal-fcb-software modal-dialog modal-fcb-software" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="img/iconos/Modal_FCB STANDARD.png" alt="" />
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
