@@ -526,10 +526,10 @@
         <div class="row row_clientes_1 clientes_hidden">
           <div id="carouselClients1" class="carousel slide z-depth-1-half" data-ride="carousel" data-interval="2000">
             <ol class="carousel-indicators">
-              <li data-target="#carouselClients1" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselClients1" data-slide-to="1"></li>
-              <li data-target="#carouselClients1" data-slide-to="2"></li>
-              <li data-target="#carouselClients1" data-slide-to="3"></li>
+              <li data-target="#carouselClients1" data-slide-to="0" class="color-slider-carousel active"></li>
+              <li data-target="#carouselClients1" data-slide-to="1" class="color-slider-carousel"></li>
+              <li data-target="#carouselClients1" data-slide-to="2" class="color-slider-carousel"></li>
+              <li data-target="#carouselClients1" data-slide-to="3" class="color-slider-carousel"></li>
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">

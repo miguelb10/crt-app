@@ -1660,3 +1660,7 @@ h1:nth-child(4) {
 .button-modal-crt:active{
     background-color: #151f65;
 }
+
+.color-slider-carousel{
+    background-color: #151f65;
+}
