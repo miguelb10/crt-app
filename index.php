@@ -527,16 +527,16 @@
           <div id="carouselExample11" class="carousel slide z-depth-1-half" data-ride="carousel" data-interval="2000">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="img/clientes/ClientesSlide1.jpg" alt="First slide">
+                <img class="d-block w-100" src="img/clientes/clientesSlide1.jpg" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="img/clientes/ClientesSlide2.jpg" alt="Second slide">
+                <img class="d-block w-100" src="img/clientes/clientesSlide2.jpg" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="img/clientes/ClientesSlide3.jpg" alt="Third slide">
+                <img class="d-block w-100" src="img/clientes/clientesSlide3.jpg" alt="Third slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="img/clientes/ClientesSlide4.jpg" alt="Third slide">
+                <img class="d-block w-100" src="img/clientes/clientesSlide4.jpg" alt="Third slide">
               </div>
             </div>
           </div>
