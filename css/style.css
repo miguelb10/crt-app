@@ -1654,3 +1654,6 @@ h1:nth-child(4) {
 .button-modal-crt{
     background-color: #151f65;
 }
+.button-modal-crt:hover{
+    background-color: #151f65;
+}
