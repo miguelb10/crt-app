@@ -634,7 +634,7 @@
           <img src="img/iconos/Modal_FCB PREMIUM.png" alt="" />
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-secondary button-modal-crt" data-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
@@ -646,7 +646,7 @@
           <img src="img/iconos/Modal_FCB SITE.png" alt="" />
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-secondary button-modal-crt" data-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
@@ -658,7 +658,7 @@
           <img src="img/iconos/Modal_FCB STANDARD.png" alt="" />
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-secondary button-modal-crt" data-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
