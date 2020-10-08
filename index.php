@@ -524,7 +524,7 @@
       </div>
       <div class="container_proje">
         <div class="row row_clientes_1 clientes_hidden">
-          <div id="carouselClients1" class="carousel slide z-depth-1-half" data-ride="carousel" data-interval="2000">
+          <div id="carouselClients1" class="carousel slide z-depth-1-half" data-ride="carousel" data-interval="3000">
             <ol class="carousel-indicators">
               <li data-target="#carouselClients1" data-slide-to="0" class="color-slider-carousel active"></li>
               <li data-target="#carouselClients1" data-slide-to="1" class="color-slider-carousel"></li>
